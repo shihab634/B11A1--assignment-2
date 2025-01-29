@@ -220,11 +220,25 @@
 /* footer section style */
 footer {
   background: rgb(1, 172, 253);
+  width: 1439px;
+  height: 519px;
 }
-.k-edu {
+.foot{
+  max-width: 1070.91px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.k-edu-p{
+  width: 400px;
+}
+
+.k-edu-1 {
   display: flex;
   gap: 5px;
 }
+
 
 /* for small device */
 @media screen and (max-width: 572px) {
