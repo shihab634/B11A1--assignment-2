@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-
 * {
   .quicksand-font {
     font-family: "Quicksand", serif;
@@ -92,7 +91,7 @@
 }
 
 /* 2nd page */
-main {
+.curriculu {
   background-image: url("../assets/bg.png");
   border-bottom: 2px dashed rgba(0, 0, 0, 0.399);
   border-top: 2px dashed rgba(0, 0, 0, 0.377);
@@ -139,8 +138,8 @@ main {
   margin-top: 60px;
   margin-bottom: 80px;
   color: rgb(0, 0, 0);
-font-size: 3.9rem;
-font-weight: 700;
+  font-size: 3.9rem;
+  font-weight: 700;
 }
 /* gradian colors id */
 #gradiant1 {
@@ -180,11 +179,39 @@ font-weight: 700;
 }
 
 /* Third page */
-.our-storiess{
-    background-image: url("../assets/bg.png");
-    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+.our-storiess {
+  background-image: url("../assets/bg.png");
+  background: url(image),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
+.story-card {
+  border-radius: 16px;
 
+  background: rgb(255, 255, 255);
+  width: 540.27px;
+  height: 630.52px;
+  padding: 40px;
+}
+.story-cards {
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 40px;
+}
+.story-container {
+  display: flex;
+  gap: 10px;
+}
+.story-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10px;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  margin: 80px 0 60px 0px;
+}
 
 /* footer section style */
 footer {
