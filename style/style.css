@@ -228,7 +228,7 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
 }
 .k-edu-p{
   width: 400px;
@@ -238,8 +238,9 @@ footer {
   display: flex;
   gap: 5px;
 }
-
-
+.text-col{
+  color: rgb(255, 255, 255);
+}
 /* for small device */
 @media screen and (max-width: 572px) {
   .nav-btn,
