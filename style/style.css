@@ -207,6 +207,10 @@
   grid-template-columns: repeat(2, 2fr);
   gap: 10px;
 }
+
+
+
+
 .center {
   text-align: center;
   align-items: center;
